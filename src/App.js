@@ -1,25 +1,16 @@
 import React from 'react';
 import "./App.css";
-import Frase from "./components/Frase";
-import SayMyName from "./components/SayMyName";
-import Pessoa from "./components/Pessoa";
-import List from './components/List';
-
+import Evento from './components/Evento';
+import Form from "./components/Form";
 
 function App() {
 
   return (
     <div className="App">
-      <Frase/>
-      <Frase/>
-      <SayMyName nome= "Lidiane" />
-      <Pessoa 
-        nome= "Lidianne"
-        idade= "40"
-        profissao = "Desenvolvedora de Software"
-        foto= "https://avatars.githubusercontent.com/u/83047245?v=4"
-      />
-      <List />
+      <h1>Testando evento</h1>
+      <Evento numero="1"/>
+      <Evento numero="2"/>
+      <Form />
     </div>
   );
 }
