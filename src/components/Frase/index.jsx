@@ -1,4 +1,4 @@
-import styles from "./Frase.module.css"
+import styles from "./Frase.module.css";
 
 const Frase = () => {
   return ( 
