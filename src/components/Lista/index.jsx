@@ -1,6 +1,6 @@
 import Item from "../Item";
 
-const List = () => {
+const Lista = () => {
   return ( 
     <>
       <h1>Minha Lista</h1>
@@ -15,4 +15,4 @@ const List = () => {
    );
 }
  
-export default List;
+export default Lista;
