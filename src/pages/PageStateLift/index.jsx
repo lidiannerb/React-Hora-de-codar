@@ -1,8 +1,8 @@
 import React from 'react';
 import { useState } from "react";
-import "./App.css";
-import SeuNome from './components/SeuNome';
-import Saudacao from './components/Saudacao';
+// import "./App.css";
+import SeuNome from '../../components/SeuNome';
+import Saudacao from '../../components/Saudacao';
 
 const PageStateLift = () => {
 
@@ -22,3 +22,4 @@ export default PageStateLift;
 
 //Aqui estamos usando o State Lift, pois temos um fim para SeuNome e outro para Saudacao
 //Esta página não está sendo renderizada, foi copiada do App.js apenas para guardar o aprendizado de state lift
+//para renderizar precisa ser importada e invocada o App.js
