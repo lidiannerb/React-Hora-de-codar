@@ -1,4 +1,4 @@
-#Projeto criado apenas para testar os componentes utilizando useState e State Lift.
+#Projeto criado apenas para testar a utlização de componentes e de hooks do React.
 
 # Getting Started with Create React App
 
