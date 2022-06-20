@@ -13,5 +13,5 @@ const SeuNome = ({ setNome }) => {
 
 export default SeuNome;
 
-//state lift: centralizar o state no componente pai (app, nesse caso), e alterar o 
+//state lift: centralizar o state no componente pai (pages / PageStateLift, nesse caso), e alterar o 
 // state no componente filho (SeuNome)
