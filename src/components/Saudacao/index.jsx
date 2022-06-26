@@ -12,6 +12,3 @@ const Saudacao = ({nome}) => {
 }
  
 export default Saudacao;
-
-//colocamos o if (&&) para que a saudação apareça apenas quando houver um nome no input 
-// do componente SeuNome
