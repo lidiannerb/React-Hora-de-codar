@@ -10,6 +10,7 @@ import Contato from "./pages/Contato";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
+
 function App() {
 
 
@@ -19,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Empresa" element={<Empresa />} />
-        <Route path="/Contato" element={<Contato />} />
+        <Route path="/Contato" element={<Contato />} />        
       </Routes>
       <Footer/>
     </Router>

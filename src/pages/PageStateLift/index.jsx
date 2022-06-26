@@ -20,6 +20,11 @@ const PageStateLift = () => {
 
 export default PageStateLift;
 
-//Aqui estamos usando o State Lift, pois temos um fim para SeuNome e outro para Saudacao
-//Esta página não está sendo renderizada, foi copiada do App.js apenas para guardar o aprendizado de state lift
-//para renderizar precisa ser importada e invocada o App.js
+// State Lift: compartilhar o estato de um state para que cada componente faça o seu papel
+
+// Aqui estamos usando o State Lift, pois temos um fim para SeuNome e outro para Saudacao
+// Estamos centralizando o state nome no componente pai (PageStateLift)para que ele seja usado no componente 
+// filho (saudacao).
+
+// Estamos centralizando o setNome no componente pai (PageStateLift)para que ele seja usado no componente 
+// filho (SeuNome).O state está sendo alterado do componente filho.
